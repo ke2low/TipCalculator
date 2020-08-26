@@ -4,7 +4,7 @@ TipCalculator is a tip calculator application for iOS.
 
 Submitted by: Kalvin Low
 
-Time spent: 4
+Time spent: 4 hours
 
 ## User Stories
 
