@@ -17,7 +17,7 @@ The following **required** functionality is complete:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/EhZc16dHhG.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/ufoM9Sqfn9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## License
 
