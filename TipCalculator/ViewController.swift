@@ -9,18 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
 
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipControl: UISegmentedControl!
     
+    @IBOutlet weak var doubleSplitLabel: UILabel!
+    @IBOutlet weak var tripleSplitLabel: UILabel!
+    @IBOutlet weak var quadrupleSplitLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         billField.becomeFirstResponder()
-        
     }
 
 
@@ -38,11 +41,17 @@ class ViewController: UIViewController {
         
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
         let total = bill + tip
+        let doubleBillSplit = total / 2
+        let tripleBillSplit = total / 3
+        let quadrupleBillSplit = total / 4
         
         //Update the tip and total labels
         
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        doubleSplitLabel.text = String(format: "$%.2f", doubleBillSplit)
+        tripleSplitLabel.text = String(format: "$%.2f", tripleBillSplit)
+        quadrupleSplitLabel.text = String(format: "$%.2f", quadrupleBillSplit)
         
     }
     
