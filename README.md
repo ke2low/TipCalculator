@@ -20,6 +20,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] User can view the split bill section that shows calculations for splitting the bill two way, three way and four way
+- [x] Tip Calculator app icon added
 
 ## Video Walkthrough
 
