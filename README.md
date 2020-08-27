@@ -13,11 +13,20 @@ The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 * [x] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
 
+The following **optional** features are implemented:
+
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+
+The following **additional** features are implemented:
+
+- [x] User can view the split bill section that shows calculations for splitting the bill two way, three way and four way
+- [x] TipCalculator app icon added
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/ufoM9Sqfn9.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/81FX3aJbzu.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## License
 
